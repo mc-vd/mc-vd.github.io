@@ -6,6 +6,7 @@ theme:
   name: material
   features:
     - navigation.indexes
+  custom_dir: overrides
 
 plugins:
   - search
