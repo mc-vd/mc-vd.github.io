@@ -3,6 +3,8 @@ date:
   created: 2025-11-23
 authors:
   - team
+hide:
+  - toc
 ---
 
 # Николаенко Анастасия Анатольевна

@@ -5,6 +5,8 @@ authors:
   - team
 tags:
   - запись
+hide:
+  - toc
 ---
 
 # Запись на визит

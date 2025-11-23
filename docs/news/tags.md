@@ -1,2 +1,2 @@
-# Tag index for the blog
+# Теги новостей
 <!-- material/tags { scope: true } -->

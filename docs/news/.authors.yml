@@ -1,9 +1,9 @@
 authors:
   team:
-    name: Team
-    description: Creator
+    name: Команда
+    description: Сотрудники МЦ Ваш Доктор
     avatar: https://simpleicons.org/icons/materialformkdocs.svg
-  squidfunk:
-    name: Martin Donath
+  aavakhrameev:
+    name: Anton Vakhrameev
     description: Creator
     avatar: https://github.com/squidfunk.png
