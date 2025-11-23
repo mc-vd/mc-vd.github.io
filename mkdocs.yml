@@ -1,5 +1,5 @@
-site_name: Blog Tutorial
-site_description: an example blog set up following the blog tutorials
+site_name: МЦ Ваш Доктор
+site_description: Многопрофильный медицинский центр в г. Каменск-Уральский
 site_url: http://mc-vd.github.io
 
 theme:
@@ -19,22 +19,31 @@ plugins:
       pagination_per_page: 5
       archive_pagination_per_page: 10
       categories_pagination_per_page: 10
-      post_slugify: !!python/object/apply:ext.slugs.slugify
-        kwds:
-          short: true
+      # post_slugify: !!python/object/apply:ext.slugs.slugify
+      #   kwds:
+      #     short: true
   - meta
   - tags
-  - rss:
-      match_path: "blog/posts/.*"
-      date_from_meta:
-        as_creation: date.created
-        as_update: date.updated
+  # - rss:
+  #     match_path: "blog/posts/.*"
+  #     date_from_meta:
+  #       as_creation: date.created
+  #       as_update: date.updated
 
 extra:
   social:
-    - icon: fontawesome/brands/mastodon
-      name: squidfunk on Mastodon
-      link: https://fosstodon.org/@squidfunk
+    - icon: fontawesome/brands/github
+      link: https://github.com/mc-vd/mc-vd.github.io
+      name: Этот сайт на Github
+    - icon: fontawesome/brands/vk
+      link: https://vk.com/mc_vd96
+      name: Группа в VK
+    - icon: fontawesome/brands/whatsapp
+      link: https://wa.me/79041778683
+      name: Связь через WhatsApp
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/mc_vd_bot
+      name: Связь через Telegram
 
 hooks:
   - hooks/socialmedia.py

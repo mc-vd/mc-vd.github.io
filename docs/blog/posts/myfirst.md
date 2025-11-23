@@ -17,7 +17,7 @@ tags:
   - festive season
 authors:
   - team
-slug: ny-eve
+# slug: ny-eve
 ---
 
 # Happy new years eve!
