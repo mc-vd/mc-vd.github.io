@@ -6,7 +6,7 @@ readtime: 15
 pin: true
 links:
   - Homepage: index.md
-  - Blog index: blog/index.md
+  - Blog index: news/index.md
   - External links:
     - Material documentation: https://squidfunk.github.io/mkdocs-material
 categories:

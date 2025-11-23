@@ -1,2 +1,2 @@
-# Tag index
+# Теги
 <!-- material/tags -->
